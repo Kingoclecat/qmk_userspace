@@ -1,0 +1,41 @@
+{
+    "userspace_version": "1.1",
+    "build_targets": [
+        [
+            "cosmos/v3",
+            "default",
+            {
+                "MAKECMDGOALS": "uf2-split-left",
+                "VIK_BUILD_LEFT": "yes",
+                "TARGET": "v3_default_left"
+            }
+        ],
+        [
+            "cosmos/v3",
+            "default",
+            {
+                "MAKECMDGOALS": "uf2-split-right",
+                "VIK_BUILD_RIGHT": "yes",
+                "TARGET": "v3_default_right"
+            }
+        ],
+        [
+            "cosmos/v3",
+            "via",
+            {
+                "MAKECMDGOALS": "uf2-split-left",
+                "VIK_BUILD_LEFT": "yes",
+                "TARGET": "v3_via_left"
+            }
+        ],
+        [
+            "cosmos/v3",
+            "via",
+            {
+                "MAKECMDGOALS": "uf2-split-right",
+                "VIK_BUILD_RIGHT": "yes",
+                "TARGET": "v3_via_right"
+            }
+        ]
+    ]
+}
