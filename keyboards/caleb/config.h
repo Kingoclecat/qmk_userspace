@@ -32,6 +32,7 @@
 #define SPI_MOSI_PIN GP15
 
 #define POINTING_DEVICE_CS_PIN GP13
+#define POINTING_DEVICE_ROTATION_180
 // #define ROTATIONAL_TRANSFORM_ANGLE 0 // Optional: Rotates the trackball
 // #define POINTING_DEVICE_INVERT_X // Optional: Inverts trackball X
 
