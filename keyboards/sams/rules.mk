@@ -2,5 +2,4 @@
 
 VIK_ENABLE = yes
 
-POINTING_DEVICE_DRIVER = pmw3389
 include $(KEYBOARD_PATH_1)/vik/rules.mk
