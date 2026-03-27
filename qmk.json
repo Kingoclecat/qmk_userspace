@@ -2,39 +2,39 @@
     "userspace_version": "1.1",
     "build_targets": [
         [
-            "cosmos/caleb",
+            "cosmos/sams",
             "default",
             {
                 "MAKECMDGOALS": "uf2-split-left",
                 "VIK_BUILD_LEFT": "yes",
-                "TARGET": "caleb_default_left"
+                "TARGET": "sams_default_left"
             }
         ],
         [
-            "cosmos/caleb",
+            "cosmos/sams",
             "default",
             {
                 "MAKECMDGOALS": "uf2-split-right",
                 "VIK_BUILD_RIGHT": "yes",
-                "TARGET": "caleb_default_right"
+                "TARGET": "sams_default_right"
             }
         ],
         [
-            "cosmos/caleb",
+            "cosmos/sams",
             "via",
             {
                 "MAKECMDGOALS": "uf2-split-left",
                 "VIK_BUILD_LEFT": "yes",
-                "TARGET": "caleb_via_left"
+                "TARGET": "sams_via_left"
             }
         ],
         [
-            "cosmos/caleb",
+            "cosmos/sams",
             "via",
             {
                 "MAKECMDGOALS": "uf2-split-right",
                 "VIK_BUILD_RIGHT": "yes",
-                "TARGET": "caleb_via_right"
+                "TARGET": "sams_via_right"
             }
         ]
     ]
